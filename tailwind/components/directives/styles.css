@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-size: 3rem;
+    @apply bg-green-600;
+  }
+  h2 {
+    font-size: 2rem;
+    @apply bg-red-600;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@layer components {
+  .btn-teal {
+    @apply bg-teal-400 py-3 px-5 rounded-2xl font-bold hover:bg-teal-950 hover:text-white;
+  }
+}
+
+@layer utilities {
+  .content-field {
+    @apply bg-orange-400;
+    height: theme("spacing.96");
+  }
+
+  @media screen(xl) {
+    body {
+      @apply bg-yellow-400 text-yellow-950;
+    }
+  }
+}

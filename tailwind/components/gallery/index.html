@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Gallery Lab</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen bg-teal-10">
+      <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+        <div
+          class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end">
+          <div class="group">
+            <a href="#">Pooky</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-teal-500 group-hover:opacity-100"></div>
+          </div>
+          <div class="group">
+            <a href="#">Hounds</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-teal-500 group-hover:opacity-100"></div>
+          </div>
+          <div class="group">
+            <a href="#">Culture</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-teal-500 group-hover:opacity-100"></div>
+          </div>
+          <div class="group">
+            <a href="#">Contact</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-teal-500 group-hover:opacity-100"></div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+          <div class="flex justify-between border-b">
+            <input
+              type="text"
+              placeholder="Search"
+              class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none" />
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="10" cy="10" r="7" />
+                <line x1="21" y1="21" x2="15" y2="15" />
+              </svg>
+            </button>
+          </div>
+          <button
+            class="py-3 px-14 text-lg font-normal text-white bg-teal-800 border border-teal-950 rounded-md shadow-2xl duration-200 hover:bg-white hover:text-teal-950">
+            Add Image
+          </button>
+        </div>
+        <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <div class="relative group">
+            <img class="w-72" src="images/image1.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Moonshot Painting</p>
+                  <p class="text-xs">2 likes - 3 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image2.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Moonshot Painting</p>
+                  <p class="text-xs">2 likes - 3 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image3.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Blue Star</p>
+                  <p class="text-xs">8 likes - 9 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image4.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Glass Neptune</p>
+                  <p class="text-xs">6 likes - 1 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image5.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Sandy Plains</p>
+                  <p class="text-xs">22 likes - 11 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image6.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Fine Silk</p>
+                  <p class="text-xs">1 likes - 7 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image4.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Wall Fly</p>
+                  <p class="text-xs">35 likes - 90 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image2.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Serif Link</p>
+                  <p class="text-xs">20 likes - 45 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="w-72" src="images/image1.jpg" alt="" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-teal-900 opacity-0 group-hover:opacity-100 bg-opacity-40">
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Wonderful Shoe</p>
+                  <p class="text-xs">68 likes - 13 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

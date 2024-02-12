@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex</title>
+  </head>
+  <body>
+    <!-- Flex and alignment -->
+    <div
+      class="flex flex-col md:flex-row h-72 w-full bg-emerald-200 justify-around mb-4">
+      <div class="p-10 border border-slate-500 bg-yellow-400">item 1</div>
+      <div class="p-10 border border-slate-500 bg-yellow-400">item 2</div>
+      <div class="p-10 border border-slate-500 bg-yellow-400">item 3</div>
+      <div class="p-10 border border-slate-500 bg-yellow-400">item 4</div>
+      <div class="p-10 border border-slate-500 bg-yellow-400">item 5</div>
+    </div>
+
+    <!-- Flex Column, Gap and Order -->
+    <div
+      class="flex flex-col gap-4 items-center h-full w-full bg-teal-200 justify-between mb-4">
+      <div class="p-10 border border-slate-500 bg-orange-400 order-2">
+        item 1
+      </div>
+      <div class="p-10 border border-slate-500 bg-orange-400 order-1">
+        item 2
+      </div>
+      <div class="p-10 border border-slate-500 bg-orange-400">item 3</div>
+      <div class="p-10 border border-slate-500 bg-orange-400">item 4</div>
+      <div class="p-10 border border-slate-500 bg-orange-400">item 5</div>
+    </div>
+
+    <!-- Grow and shrink -->
+
+    <div class="flex w-full bg-zinc-200">
+      <div class="flex-none w-64 p-10 border border-slate-500 bg-teal-400">
+        item 1
+      </div>
+      <div class="flex-initial w-64 p-10 border border-slate-500 bg-teal-400">
+        item 2
+      </div>
+      <div class="flex-auto p-10 border border-slate-500 bg-teal-400">
+        item 3
+      </div>
+      <div class="flex-1 p-10 border border-slate-500 bg-teal-400">item 4</div>
+      <div class="p-10 border border-slate-500 bg-teal-400">item 5</div>
+    </div>
+  </body>
+</html>
+
+<!-- Justify Content
+      justify-start	      justify-content: flex-start;
+      justify-end	        justify-content: flex-end;
+      justify-center	    justify-content: center;
+      justify-between	    justify-content: space-between;
+      justify-around	    justify-content: space-around;
+      justify-evenly	    justify-content: space-evenly;
+    -->
+
+<!-- 
+      items-start	align-items: flex-start;
+      items-end	align-items: flex-end;
+      items-center	align-items: center;
+      items-baseline	align-items: baseline;
+      items-stretch	align-items: stretch;
+     -->
+
+<!-- Flex Direction
+      flex-row	        flex-direction: row;
+      flex-row-reverse	flex-direction: row-reverse;
+      flex-col	        flex-direction: column;
+      flex-col-reverse	flex-direction: column-reverse;
+    -->
+
+<!-- 
+      flex-wrap	        flex-wrap: wrap;
+      flex-wrap-reverse	flex-wrap: wrap-reverse;
+      flex-nowrap	      flex-wrap: nowrap;
+     -->
+
+<!-- Flex Properties
+      flex-none	    flex: none;     
+      Prevent item from growing or shrinking
+
+      flex-initial	flex: 0 1 auto; 
+      Allow item to shrink but not grow, taking into account its initial size
+
+      flex-auto	    flex: 1 1 auto; 
+      Allow item to grow and shrink, taking into account its initial size
+
+      flex-1	      flex: 1 1 0%;   
+      Allow item to grow and shrink as needed, ignoring its initial size
+    -->
